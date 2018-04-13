@@ -12,3 +12,21 @@
 .search {
     border-radius: 15px;
 }
+
+.glyphicon-search {
+    border-radius: 15px;
+    width: 40px;
+    background-color: white;
+    color: black;
+    margin: 0px;
+}
+
+#links-list {
+    width: 400px;
+    float: left;
+    
+}
+
+
+
+
