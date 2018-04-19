@@ -1,32 +1,131 @@
-.main-content {}
+@import url('https://fonts.googleapis.com/css?family=Patua+One|Open+Sans');
+
+body {
+    font-family: "Patua One", serif;
+    background-color: #fefffe;
+
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
 
 .breadcrumb {
     background-color: rgba(0, 0, 0, 0);
+    font-size: 10pt;
+
+}
+
+.breadcrumb > li + li::before {
+    padding: 0 5px;
+    color: #555;
+    content: ">\00a0";
 }
 
 .navbar-special {
-    background-color: white;
+    background-color: #e0e0e0;
     box-shadow: 5, 5, 1;
 }
 
-.search {
-    border-radius: 15px;
-}
-
 .glyphicon-search {
-    border-radius: 15px;
+    border-radius: 2px;
     width: 40px;
-    background-color: white;
-    color: black;
+    background-color: #372a34;
+    color: white;
     margin: 0px;
+    height: 34px;
+    border-width: 0px;
 }
 
 #links-list {
     width: 400px;
     float: left;
-    
+
 }
 
+img {
+    max-height: 240px;
+    min-height: 240px;
+}
 
+.thumbnail {
+    min-height: 480px;
+    max-height: 480px;
+    border-width: 0px;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0);
 
+}
 
+.btn-primary {
+    background-color: #76B269;
+}
+
+nav {
+    min-height: 60px;
+    font-size: 14pt;
+}
+
+.navbar {
+    background-color: #4a3a46;
+    box-shadow: 2px 2px 4px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.form-control::-moz-placeholder {
+    background-color: #e0e0e0;
+}
+
+.form-control::-ms-input-placeholder {
+    background-color: #e0e0e0;
+}
+
+.form-control::-webkit-input-placeholder {
+    background-color: #e0e0e0;
+}
+
+.navbar-default .navbar-brand {
+    color: #e0e0e0;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #e0e0e0;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ffffff;
+}
+
+.description-cover {
+    max-height: 400px;
+    padding: 16px;
+}
+
+.cover-info {
+    display: inline-block;
+}
+
+.title-description {
+    margin-top: 100px;
+    font-size: 12pt;
+}
+
+.required {
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.website-description {
+    font-size: 14pt;
+    clear: both;
+}
+
+.material-listing {
+    max-height: 20px;
+}
